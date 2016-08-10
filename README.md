@@ -30,3 +30,4 @@
 使用原生NodeJS，不借助第三方包，利用Node自带的http、fs、path、url、zlib等模块，并配合Ejs模板引擎，实现了静态资源服务器的功能。可利用浏览器查看并读取本地文件（夹），并可对相关文件进行压缩和缓存，达到了模拟Expres框架的最基本效果。 
 源码地址：https://github.com/Arvin-Yan/Node-demo/tree/master/static-server
 
+
