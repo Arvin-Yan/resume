@@ -7,7 +7,6 @@
 
 
 
-
 ## 教育经历
 - 硕士：杭州电子科技大学 自动化学院    
 - 本科：西安电子科技大学 自动化专业
@@ -35,6 +34,8 @@
 术。可在同一页面打开多个对话框，自由拖动对话框，并
 且可自定义对话框的显示方式和内容。达到了代码复用的效果
 - [预览](http://yankewen.applinzi.com/dialog/)
+
+
 ## 原生静态资源服务器
 - 使用原生NodeJS，不借助第三方包，利用Node自带的
 http、fs、path、url、zlib等模块，并配合Ejs模板引擎，
@@ -42,15 +43,20 @@ http、fs、path、url、zlib等模块，并配合Ejs模板引擎，
 本地文件（夹），并可对相关文件进行压缩和缓存，后期
 扩展性极好，达到了模拟Expres框架的最基本效果。
 - [源码](https://github.com/Arvin-Yan/Node-demo/tree/master/static-server)
+
+
 ## stickUp插件
 - 一个简单的Jquery插件，可以将页面上的任何元素“固定”到页面的顶部，当页面上下滚动时，自动检测固定元素和释放固定元素的时机，并且解决了元素固定时常见的“闪跳”问题，达到了无缝stick的效果。
 - [预览](http://yankewen.applinzi.com/stickUp/)
+
 ## Tab切换卡
 - 在同一个页面实现多次Tab切换，相互之间不会有影响，主要利用了this指向其直接调用者的特性
 - [预览](http://yankewen.applinzi.com/tab/)
+
 ## 仿Start Bootstrap Agency主题单页
 - 合理运用HTML语义化标签，利用定位、浮动等特性，实现了多栏布局、时间轴等布局样式。
 - [预览](http://yankewen.applinzi.com/Agency/)
+
 ## 单页多轮播
 - 可在单个页面实现多个轮播，具有正序播放、反序播放、无缝播放等功能。其原理首先计算出图片的度，然后每次播放图片时，让包裹图片的容器移动一个或者多个图片的宽度。并将其封装为一个jQuery插件，实现代码复用。
 - [预览](http://yankewen.applinzi.com/carousel/)
