@@ -30,12 +30,27 @@
 - 较好的自学能力、对前端有深厚的兴趣、毅力。
 
 ## 个人作品
-### 常见效果展示（轮播、瀑布流）
-使用RequireJS，在同一页面实现了单页多轮播、Ajax跨域请求数据、瀑布流布局等功能。其中轮播使用了构造函数模式，实现了代码复用。达到了自动播放，无缝轮播的效果。瀑布流布局的数据来源于新浪提供的JSONP接口。使用Ajax请求数据，请求成功后，将数据填充成模板，append到图片容器里，当这些元素的图片全部加载完成后，执行瀑布流放置，将新增的元素按照瀑布流的方式放置到合适位置。实现了无限加载的效果。
-预览地址：[http://yankewen.applinzi.com/](http://yankewen.applinzi.com/)
-源码地址：[https://github.com/Arvin-Yan/FE-Demo/tree/master/carousel-Ajax](https://github.com/Arvin-Yan/FE-Demo/tree/master/carousel-Ajax)
-### 原生静态资源服务器
-使用原生NodeJS，不借助第三方包，利用Node自带的http、fs、path、url、zlib等模块，并配合Ejs模板引擎，实现了静态资源服务器的功能。可利用浏览器查看并读取本地文件（夹），并可对相关文件进行压缩和缓存，达到了模拟Expres框架的最基本效果。 
-源码地址：https://github.com/Arvin-Yan/Node-demo/tree/master/static-server
-
-
+## 有趣的对话框
+- 主要使用prototype实现了继承，利用浮动、定位等技
+术。可在同一页面打开多个对话框，自由拖动对话框，并
+且可自定义对话框的显示方式和内容。达到了代码复用的效果
+ - [预览](http://yankewen.applinzi.com/dialog/)
+## 原生静态资源服务器
+- 使用原生NodeJS，不借助第三方包，利用Node自带的
+http、fs、path、url、zlib等模块，并配合Ejs模板引擎，
+实现了静态资源服务器的功能。可利用浏览器查看并读取
+本地文件（夹），并可对相关文件进行压缩和缓存，后期
+扩展性极好，达到了模拟Expres框架的最基本效果。
+- [源码](https://github.com/Arvin-Yan/Node-demo/tree/master/static-server)
+## stickUp插件
+- 一个简单的Jquery插件，可以将页面上的任何元素“固定”到页面的顶部，当页面上下滚动时，自动检测固定元素和释放固定元素的时机，并且解决了元素固定时常见的“闪跳”问题，达到了无缝stick的效果。
+- [预览](http://yankewen.applinzi.com/stickUp/)
+## Tab切换卡
+- 在同一个页面实现多次Tab切换，相互之间不会有影响，主要利用了this指向其直接调用者的特性
+- [预览](http://yankewen.applinzi.com/tab/)
+## 仿Start Bootstrap Agency主题单页
+- 合理运用HTML语义化标签，利用定位、浮动等特性，实现了多栏布局、时间轴等布局样式。
+- [预览](http://yankewen.applinzi.com/Agency/)
+## 单页多轮播
+- 可在单个页面实现多个轮播，具有正序播放、反序播放、无缝播放等功能。其原理首先计算出图片的度，然后每次播放图片时，让包裹图片的容器移动一个或者多个图片的宽度。并将其封装为一个jQuery插件，实现代码复用。
+- [预览](http://yankewen.applinzi.com/carousel/)
