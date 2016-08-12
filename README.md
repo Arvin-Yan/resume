@@ -34,7 +34,7 @@
 - 主要使用prototype实现了继承，利用浮动、定位等技
 术。可在同一页面打开多个对话框，自由拖动对话框，并
 且可自定义对话框的显示方式和内容。达到了代码复用的效果
- - [预览](http://yankewen.applinzi.com/dialog/)
+- [预览](http://yankewen.applinzi.com/dialog/)
 ## 原生静态资源服务器
 - 使用原生NodeJS，不借助第三方包，利用Node自带的
 http、fs、path、url、zlib等模块，并配合Ejs模板引擎，
