@@ -1,0 +1,151 @@
+.container {
+    margin: 20px auto;
+    position: relative;
+    width: 1020px;
+    box-shadow: 0 1px 5px rgba(0,0,0, .3);
+    border: 1px solid #e0f0ef\9;
+}
+
+.aside {
+    position: absolute;
+    width: 300px;
+    padding: 30px 40px;
+    top: 0;
+    bottom: 0;
+}
+
+.aside h1 {
+    margin-bottom: 5px;
+    font-size: 2.2em;
+    letter-spacing: .1em;
+}
+
+.aside p {
+    font-size: 1.25em;
+}
+.aside .pdf{
+    margin-bottom: 30px;
+}
+.aside .weixin{
+    margin:0 auto;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    border:3px solid #fff;
+    border-radius: 50%;
+    background: #7ce2cb;
+    vertical-align: middle;
+}
+.aside .weixin img{
+    width: 80px;
+    height: 80px;
+    border-radius: 20%;
+    margin-top: 20px;
+}
+.widget h3 {
+    margin-top: 30px;
+}
+
+.widget.contact {
+    margin-top: 40px;
+}
+
+.widget li{
+    margin-top: 10px;
+}
+
+.skills td {
+    line-height: 25px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.skill-bar {
+    width: 120px;
+    height: 12px;
+    line-height: 12px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.skill-now {
+    height: 100%;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+}
+
+.s-html .skill-now {
+    width: 80%;
+}
+
+.s-css .skill-now {
+    width: 75%;
+}
+
+.s-js .skill-now {
+    width: 72%;
+}
+
+.s-jq .skill-now {
+    width: 65%;
+}
+.s-java .skill-now {
+    width: 42%;
+}
+.s-php .skill-now {
+    width: 40%;
+}
+
+.s-node .skill-now {
+    width: 70%;
+}
+
+.qrcode {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.main {
+    margin-left: 300px;
+    min-height: 1320px;
+}
+
+.nav-tabs {
+    float: right;
+}
+
+.tab {
+    float: left;
+
+    position: relative;
+}
+
+.content h2 {
+    color: #00796b;
+    text-shadow: 1px 1px 1px rgba(160,160,160, .3);
+}
+
+.aside {
+    /*background-color: #76b4ed;*/
+    color: #333;
+    background-color: #7ce2cb;
+}
+
+.skill-bar {
+    background: #008080;
+}
+
+.skill-now {
+    background-color: #fff;
+}
+#edu .degree{
+    margin-left: 60px;
+}
+#edu .desc{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
